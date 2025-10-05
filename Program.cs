@@ -4,11 +4,11 @@ Created by finn gilbert on 10-3-2025
 */
 using System;
 using System.Collections.Generic;
-// sets an array of ten numbers
 using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.Design;
 using System.Diagnostics.CodeAnalysis;
 
+// sets an array of ten numbers
 int[] numbers = new int[10];
 List<int> modes = new List<int>();
 Random rand = new Random();
